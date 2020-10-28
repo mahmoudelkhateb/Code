@@ -1,0 +1,338 @@
+@media (max-width: 992px) {
+  .navContainer nav .navLinks .hidden-icon {
+    display: block;
+    position: fixed;
+    right: 80px;
+    top: 6px;
+    float: right;
+    padding: 10px 15px;
+    line-height: 1;
+    color: #999;
+    background-color: #333;
+    z-index: 99;
+    font-size: 20px;
+  }
+  .myOwlCarousel .owlCarouselShaded .owl-text h1 {
+    font-size: 50px;
+  }
+  .myOwlCarousel .owlCarouselShaded .owl-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .myOwlCarousel .owlCarouselShaded .owl-text p {
+    font-size: 16px;
+    word-spacing: 6px;
+    word-spacing: -2px;
+    letter-spacing: 5px;
+    margin-top: 0 !important;
+  }
+  .navContainer nav.active .navLinks ul {
+    right: 0;
+    top: 70px;
+    position: absolute;
+    transition: right 0.3s ease-in-out;
+  }
+  .navContainer nav:not(.active) .navLinks ul li {
+    right: -200px;
+    position: absolute;
+    top: 70px;
+    transition: right 0.3s ease-in-out;
+  }
+  .navContainer nav .navLinks ul li {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #333;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    transition: right 0.2s ease-in-out;
+    position: relative;
+    right: 0;
+    padding: 7px 14px;
+    color: #fff;
+    transition: right 0.3s ease-in-out;
+  }
+  .navContainer nav .navLinks ul li:hover {
+    background-color: #000;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(2) {
+    transition-delay: 0.2s;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(3) {
+    transition-delay: 0.4s;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(4) {
+    transition-delay: 0.6s;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(5) {
+    transition-delay: 0.8s;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(6) {
+    transition-delay: 1s;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(7) {
+    transition-delay: 1.2s;
+  }
+  .navContainer nav .navLinks ul li:nth-of-type(8) {
+    transition-delay: 1.4s;
+  }
+  .navContainer nav .navLinks ul li:last-of-type {
+    transition-delay: 1.6s;
+  }
+  .owl-text-img-container {
+    height: 100%;
+  }
+  .owl-text-img-container img {
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .searchPage.active input {
+    width: 80%;
+  }
+  .searchPage.active .input-search {
+    left: 85%;
+    transform: translate(-85%, -51%);
+  }
+  .choose {
+    overflow-x: hidden;
+  }
+  .choose .choose-hol .row {
+    display: block !important;
+  }
+  .choose .choose-hol .row .col-4 {
+    max-width: 100% !important;
+  }
+  main .rightFixedOne {
+    display: none;
+  }
+  main .leftFixedOne {
+    display: block;
+  }
+  .works p:first-of-type {
+    width: 70%;
+  }
+  .worksLinks {
+    padding: 7% 40px;
+  }
+  .fast-yellow {
+    margin-top: 72px;
+  }
+  .fast-yellow .worksLinks .worksButtons .btn {
+    padding: 15px;
+  }
+  .workProcess {
+    padding: 3% 0 5%;
+    min-height: 16vh;
+  }
+  .service .galleryButtons ul li {
+    border-right: 1px solid #9a9a9a;
+    padding: 0 17px;
+    color: #9a9a9a;
+  }
+  .service .galleryContent ul li .content-icon {
+    font-size: 50px;
+    color: #e6af2b;
+  }
+  .service .galleryContent ul li h3 {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .service .galleryContent ul li p {
+    margin: auto;
+    width: 95%;
+    margin-bottom: 30px;
+    color: #626262;
+  }
+  .person .person-holder .member:hover .member-desc {
+    height: 44%;
+    bottom: -50px;
+  }
+  .person .person-holder .member .member-desc p,
+  .person .person-holder .member .member-desc span {
+    font-size: 10px;
+  }
+  .person {
+    min-height: 72vh;
+    overflow: hidden;
+  }
+  .shopping .shopping-holder ul .shopping-desc .shopping-number {
+    padding-right: 10px;
+  }
+  .companies .row {
+    display: block !important;
+  }
+  .companies .row .col-4 {
+    max-width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .information .about {
+    max-width: 35%;
+  }
+  .information .about p {
+    width: 100%;
+  }
+  .information .otherLinks {
+    max-width: 65%;
+  }
+  .information .otherLinks .col-4:last-of-type {
+    padding-left: 35px;
+  }
+  .information .information-links-social .row {
+    display: block;
+  }
+  .information .information-links-social .row > div {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .information .information-links-social ul {
+    padding: 0 10px;
+  }
+  .information .information-links-social .information-social ul li {
+    margin-right: 56px;
+  }
+  footer {
+    padding: 4% 0;
+  }
+}
+
+@media (max-width: 766.98px) {
+  .worksLinks {
+    padding: 7% 40px;
+  }
+  .fast-yellow .worksLinks .worksButtons {
+    margin-top: 30px;
+    float: none;
+  }
+  .person {
+    min-height: 85vh;
+  }
+  .shopping .shopping-img {
+    display: none;
+  }
+  .shopping .shopping-holder ul li:last-of-type {
+    width: 100%;
+  }
+  .blogs .blogs-holder .myCards .row {
+    display: block;
+  }
+  .blogs .blogs-holder .myCards .row .col-4 {
+    max-width: 100% !important;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navContainer nav .navLinks .hidden-icon {
+    right: 25px;
+  }
+  .studio .studio-holder {
+    width: 100%;
+  }
+  .studio .studio-holder h1 {
+    font-size: 20px;
+  }
+  .studio .categories ul li {
+    margin: 0 15px;
+  }
+  .studio .categories ul li::after {
+    right: -13px;
+  }
+  .myCounter .row {
+    display: block;
+  }
+  .myCounter .row .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .workProcess {
+    padding: 5% 0;
+    min-height: 20vh;
+  }
+  .works p:first-of-type {
+    width: 100%;
+    padding: 0 21px;
+  }
+  .fast-yellow .worksLinks {
+    padding: 3% 10px;
+  }
+  .fast-yellow .worksLinks .show i {
+    font-size: 35px;
+  }
+  .fast-yellow .worksLinks .show p {
+    display: inline;
+    padding-left: 10px;
+    margin: 0;
+  }
+  .service .service-holder .galleryButtons ul {
+    margin-bottom: 30px;
+  }
+  .service .service-holder .galleryButtons ul li {
+    padding: 0 13px;
+  }
+  .service .service-holder .galleryButtons ul li i {
+    font-size: 35px;
+    padding: 0 13px;
+  }
+  .service .service-holder .galleryButtons ul li span {
+    font-size: 13px;
+  }
+  .service .galleryContent ul li h3 {
+    font-size: 14px;
+  }
+  .service .galleryContent ul li .content-icon {
+    font-size: 50px;
+  }
+  .service .galleryContent ul li:last-of-type p {
+    width: 100%;
+  }
+  .person {
+    min-height: 100vh;
+  }
+  .person .person-holder .gray {
+    font-size: 14px !important;
+  }
+  .person .person-holder .member .member-desc .member-lorem {
+    font-size: 10px !important;
+  }
+  .person .person-holder .member .member-desc span {
+    font-size: 10px;
+    display: block;
+  }
+  .information .row {
+    display: block;
+  }
+  .information .about {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .information .row .col-4 {
+    max-width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .information .otherLinks .col-4:last-of-type {
+    padding-left: 15px;
+  }
+  .information .otherLinks .col-4 ul {
+    padding-left: 20px;
+  }
+  .information .information-links-social ul li a {
+    font-size: 13px;
+  }
+  .information .information-links-social ul li {
+    margin-right: 10px;
+  }
+  .information .information-links-social .information-social ul li {
+    margin-right: 44px;
+  }
+  .scrollButton {
+    bottom: 52px;
+  }
+  footer .footer-logo img {
+    max-width: 80px;
+  }
+}
